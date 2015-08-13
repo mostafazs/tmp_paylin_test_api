@@ -8,7 +8,8 @@
 $url ='http://payline.ir/payment-test/gateway-send'; 
 $api_test = 'adxcv-zzadq-polkjsad-opp13opoz-1sdf455aadzmck1244567'; 
 $amount = 1000; 
-$redirect = urlencode('http://manasaman.host22.com/payline/callback.php');
+//$redirect = urlencode('http://manasaman.host22.com/payline/callback.php');
+$redirect = urlencode('https://paylin-test.herokuapp.com/callback.php');
 $result = send($url,$api_test,$amount,$redirect); 
 if($result > 0 && is_numeric($result)){ 
 //create a file for save $id_get value : this is nod good way : just for testing
