@@ -1,5 +1,5 @@
 ﻿	<?php
-	//cURL send function
+	//cURL send function:POST DATA
 	function send($url,$api,$amount,$redirect){
 	$ch = curl_init(); 
 	curl_setopt($ch,CURLOPT_URL,$url); 
@@ -10,7 +10,7 @@
 	curl_close($ch); 
 	return $res; 
 	}
-	//cURL get function
+	//cURL get function:POST DATA
 	function get($url,$api,$trans_id,$id_get){
 	$ch = curl_init(); 
 	curl_setopt($ch,CURLOPT_URL,$url);
