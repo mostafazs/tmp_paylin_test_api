@@ -1,14 +1,5 @@
 {
     "name": "Payline Gateway",
     "description": "Simple Testing of payline api.",
-	"main": "index.php",
-	"license": "GPL",
-	"author":
-        {
-            "name": "Mostafa",
-            "email": "mostafa@mostafa",
-            "homepage": "http://www.nourl.com",
-            "role": "Developer"
-        }
-	"require":"PHP 5.0"
+	"main": "index.php"
 }
